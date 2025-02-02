@@ -4,11 +4,13 @@ import Search from './components/search';
 import Results from './components/results';
 
 class App extends Component  {
-
+state = {
+  items:[{name:'1111', description:'sssssss'}]
+}
   render() {
     return <>
     <Search/>
-    <Results/>
+    <Results items={this.state.items}/>
     </>;
   }
 }

@@ -51,3 +51,7 @@
   width: 100%;
 }
 
+.result-list-item {
+  display: flex;
+  flex-direction: row;
+}
